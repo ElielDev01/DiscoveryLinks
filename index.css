@@ -1,50 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Ga+Maamli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-@media(min-width: 380px){
-    
-    body{
-        background-position: center center;
-        background-size: auto;        
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-    }
-
-    header img{
-
-    }
-    .container .box{
-        width: auto;
-        height: auto;
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px 0px 15px;
-        opacity: 0.79;
-        border-radius: 2rem;
-        margin-top: 2rem;
-
-    }
-
-    .box div{
-        font-size: 15px;
-
-    }
-
-    main img{
-        size: 1px;
-        width: 44px;
-        height: 44px;
-    }
-
-    footer p{
-        margin-top: 1rem;
-    }
-
-}
-
-
 *{
     padding: 0px;
     margin: 0px;
@@ -61,8 +17,8 @@ body{
       "wdth" 100;
     background: url(./imagens/cod.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
     background-position: center center;
+    background-size: auto;
 }
 
 header{
@@ -74,8 +30,9 @@ header{
 }
 
 header img{
-    border-radius: 3rem;
+    border-radius: 25rem;
     padding: 2px;
+    width: 100px;
     background-color: white;
     box-shadow: 0px 0px 15px;
 }
@@ -100,7 +57,7 @@ main img{
     opacity: 0.79;
     border-radius: 2rem;
     margin-top: 1rem;
-    width: auto;
+    width: 100%;
 }
 
 .box{
@@ -118,8 +75,9 @@ main img{
 
 }
 
-li {
+ul li {
     list-style-type: none;
+    
     
 }
 
@@ -130,7 +88,6 @@ a{
     padding: 0.67rem;
     border-radius: 2rem;
     cursor: pointer;
-    margin-right: auto;
 }
 
 a:hover{
@@ -142,4 +99,5 @@ footer .rodape{
     margin-top: 3rem;
     margin-left: 3rem;
 }
+
 
