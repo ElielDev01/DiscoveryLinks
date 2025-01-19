@@ -59,10 +59,7 @@ ul{
 }
 
 li{
-    display: flex;
-    align-items: center;
     list-style-type: none;
-    gap: 5px;
     padding: 5px;
     background-color: rgba(63, 63, 63, 0.858);
     border-radius: 12px;
@@ -73,10 +70,14 @@ li:hover{
 }
 
 a{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
     text-decoration: none;
     color: white;
     font-size: large;
 }
+
 main img{
     width: 25px;
 }
