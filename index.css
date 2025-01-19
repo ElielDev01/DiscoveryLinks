@@ -86,3 +86,19 @@ footer{
     margin-top: 97px;
     margin-left: 9px;
 }
+
+/* VERSÃO PARA DESKTOP*/
+@media (min-width: 700px){
+
+    body{
+        background-size: cover;
+    }
+    div{
+        width: 20vw;
+    }
+
+    footer{
+        margin-left: 50px;
+        margin-top: 9rem;
+    }
+}
